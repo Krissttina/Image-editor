@@ -1,0 +1,19 @@
+
+  .container.disable .controls .reset-filter,
+  .container.disable .controls .save-img,
+  .container.disable .editor-panel{
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  ----
+
+
+ 
+
+  
+  
+
+  
+  
+  
