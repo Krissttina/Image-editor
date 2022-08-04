@@ -103,7 +103,7 @@ body{
     font-size: 18px;
   }
 
-  .rotate .options button:active{
+  .options button:active{
     color: #fff;
     background: #5372F0;
     border-color: #5372F0;
@@ -147,6 +147,10 @@ body{
   .controls .reset-filter:hover{
     color: #fff;
     background: #6C757D;
+  }
+
+  .row button:hover{
+    opacity: 0.9;
   }
 
   .controls .choose-img{
