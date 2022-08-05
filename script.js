@@ -9,7 +9,7 @@ const saveImgBtn = document.querySelector(".save-img");
 const previewImg = document.querySelector(".preview-img img");
 const chooseImgBtn = document.querySelector(".choose-img");
 
-let brightness = 100, saturation = 100, inversion = 0, grayscale = 0;
+let brightness = 100, saturation = 100, inversion = 0, grayscale = 0; //variables
 let rotate = 0, flipHorizontal = 1, flipVertical = 1;
 
 const loadImage = () => {
@@ -23,7 +23,7 @@ const loadImage = () => {
     });
 }
 
-const applyFilter = () => {
+const applyFilter = () => { //need to be fixed
     previewImg.style.transform = `rotate(${rotate}deg)
     scale(${flipHorizontal}, ${flipVertical})`;
     previewImg.style.filter = `brightness(${brightness}%)
